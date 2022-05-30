@@ -1,16 +1,27 @@
 import React from "react";
+import Product from "./Product";
+import {Flex,Grid}  from '@chakra-ui/react'
+
 
 const Products = () => {
   // TODO: Remove below const and instead import them from chakra
-  const Flex = () => <div />;
-  const Grid = () => <div />;
+//  Flex = () => <div />;
+//  Grid = () => <div />;
 
   return (
-    <Flex>
-      {/*  AddProduct */}
-      <Grid>{/* List of Products */}</Grid>
+   <div>
+     arun
+       {/*  AddProduct */}
+      <div>
+        <Product/>
+      </div>
+       
+     
       {/* Pagination */}
-    </Flex>
+   </div>
+     
+    
+   
   );
 };
 
